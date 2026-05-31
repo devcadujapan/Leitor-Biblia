@@ -138,7 +138,7 @@ class VerseList(tk.Frame):
             # Texto do versículo
             txt = tk.Label(row,
                 text=texto,
-                font=("Georgia", 13),
+                font=("Georgia", 18),
                 bg=row_bg, fg="#dcd8ff",
                 justify="left", anchor="w",
                 wraplength=700, pady=8)
