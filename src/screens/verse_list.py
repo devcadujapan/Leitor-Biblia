@@ -135,7 +135,7 @@ class VerseList(tk.Frame):
             sep = tk.Frame(row, bg="#3a3a5e", width=2)
             sep.pack(side="left", fill="y", padx=(0, 12), pady=4)
 
-            # Texto do versículo
+            # Texto do versículo com tipografia agradável
             txt = tk.Label(row,
                 text=texto,
                 font=("Georgia", 18),
